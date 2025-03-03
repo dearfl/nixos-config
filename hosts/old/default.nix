@@ -18,6 +18,9 @@ _: {
     ../../modules/ssh.nix
     ../../modules/hyprland.nix
 
+    ../../modules/vaultix.nix
+    ./vaultix.nix
+
     ../../users/flr.nix
   ];
 
