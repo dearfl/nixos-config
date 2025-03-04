@@ -8,7 +8,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     vaultix = {
-      url = "github:milieuim/vaultix";
+      url = "github:milieuim/vaultix?rev=21cd0f34e74b050b9c8ab13827b1c6ea3e61d404";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     raspberry-pi-nix.url = "github:nix-community/raspberry-pi-nix";
@@ -121,6 +121,8 @@
           "x86_64-linux"
           "aarch64-linux"
         ];
+
+        debug = true;
       }
     );
 }
