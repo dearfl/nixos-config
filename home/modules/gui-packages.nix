@@ -12,9 +12,7 @@
     ];
 
     programs = {
-      wofi.enable = true;
       mpv.enable = true;
-      waybar.enable = true;
       obs-studio.enable = true;
     };
   };
